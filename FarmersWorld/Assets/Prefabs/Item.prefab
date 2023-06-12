@@ -780,7 +780,7 @@ RectTransform:
   - {fileID: 6025691922047213785}
   - {fileID: 3532838732191837611}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -845,9 +845,9 @@ MonoBehaviour:
   characterSpeedText: {fileID: 5435579970301985674}
   characterDurabilityText: {fileID: 5435579970301985674}
   characterPurchaseButton: {fileID: 4903237180763841955}
-  repairButton: {fileID: 5435579971409176743}
+  repairButton: {fileID: 4903237180763841955}
   removeButton: {fileID: 5435579971376823815}
-  itemButton: {fileID: 4903237180763841955}
+  itemButton: {fileID: 5435579971409176743}
   itemImage: {fileID: 5435579971728454833}
   itemOutline: {fileID: 6964751130031466423}
 --- !u!114 &6964751130031466423

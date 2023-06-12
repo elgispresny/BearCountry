@@ -163,7 +163,7 @@ public class AllTools : MonoBehaviour
                 uiItem.OnItemSelect(i, OnItemSelected);
             }
 
-            ShopItemsContainer.GetComponent<RectTransform>().sizeDelta = Vector2.up * ((itemHeight + itemSpacing) * characterDB.CharactersCount + itemSpacing);
+           // ShopItemsContainer.GetComponent<RectTransform>().sizeDelta = Vector2.up * ((itemHeight + itemSpacing) * characterDB.CharactersCount + itemSpacing);
         }
     }
 

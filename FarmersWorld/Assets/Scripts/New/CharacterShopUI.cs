@@ -57,14 +57,6 @@ public class CharacterShopUI : MonoBehaviour
 
 private void Start()
 {
-    // if (newItemUI != null)
-    // {
-    //     newItemUI.SetRemoveButtonClickAction(index =>
-    //     {
-    //         DestroyNewItem(index);
-    //     });
-    // }
-
     GenerateShopItemsUI();
 
     SetSelectedCharacter();
@@ -402,7 +394,7 @@ private void DestroyNewItemAfterDelay(Tool tool)
     {
         previousSelectedItemIndex = newSelectedItemIndex;
         newSelectedItemIndex = itemIndex;
-
+        
         CharacterItemUI prevUiItem = GetItemUI(previousSelectedItemIndex);
         CharacterItemUI newUiItem = GetItemUI(newSelectedItemIndex);
 

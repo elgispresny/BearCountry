@@ -31,18 +31,15 @@ public class CharacterItemUI : MonoBehaviour
 
 	private int itemIndex;
 
-	private void OnEnable()
-	{
-		removeButton.onClick.AddListener(() =>
-        {
-            RemoveItem();
-        });
-	}
+    private void Start()
+    {
+        removeButton.onClick.AddListener(RemoveItem);
+    }
 
-	private void RemoveItem()
-	{
-		CharacterShopUI.instance.DestroyNewItem(1);
-	}
+    private void RemoveItem()
+    {
+        CharacterShopUI.instance.DestroyNewItem(itemIndex);
+    }
 	
 	//--------------------------------------------------------------
 	public void SetItemPosition (Vector2 pos)
