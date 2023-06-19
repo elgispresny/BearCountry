@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/tonplay-unity-sdk-main/TONPlaySDK/Assets/TonPlay/Example/Scenes/1_TONPlayUser.unity
+    guid: 9ca557d5d4ab0d14388653c1e89a8a58
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
